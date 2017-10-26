@@ -11,10 +11,10 @@ public class MostFrequentInt { //O(N^2) so not great
 
             for (int j=1;j<input.length;j++)
             {
-                if (input[i] == input[j])
+                if (input[i] == input[j])//match found
                     count++;
             }
-            if (count > mostFrequentCount)
+            if (count > mostFrequentCount)//new best result found
             {
                 mostFrequentInt = input[i];
                 mostFrequentCount = count;

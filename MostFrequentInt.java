@@ -2,6 +2,12 @@ public class MostFrequentInt { //O(N^2) so not great
 
     public int getMostFrequent(int[] input)
     {
+        if(input.length == 0)
+        {
+            System.out.println("Error: array needs to be bigger");
+            return 0;//need to return something
+        }
+
         int mostFrequentCount = 0;
         int mostFrequentInt = input[0]; //default value
 

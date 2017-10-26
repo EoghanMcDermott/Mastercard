@@ -1,7 +1,8 @@
-public class Main{
-
-    public static void main(String[] args) {
-
+public class Main
+{
+    public static void main(String[] args)
+    {
+        //Demonstrating Task 1
         int[] array = {1,2,2,3,4};
 
         MostFrequentInt task1 = new MostFrequentInt();
@@ -9,6 +10,7 @@ public class Main{
 
         System.out.println("The most frequent integer is:   " + freq);
 
+        //Demonstrating Task 2
         ReverseString task2 = new ReverseString();
         String forward = "Hello World";
 
@@ -19,5 +21,4 @@ public class Main{
 
         System.out.println(forward + " reversed recursively is: " + recursive);
     }
-
 }

@@ -2,7 +2,12 @@ public class ReverseString {
 
     public String reverseIterative(String input)
     {
-        return "";
+        String reverse = "";
+        for(int i = input.length();i>0;i--)
+        {
+            reverse += input.substring(i-1,i);
+        }
+        return reverse;
     }
 
 
